@@ -1,0 +1,197 @@
+.contenedor-portada {
+    height: 85vh;
+    background: url(../../assets/portada.jpeg) no-repeat center center/cover;
+    /*Imagen de fondo*/
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*Color semi-transparente*/
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.titulo-portada {
+    font-size: 3.5rem;
+}
+
+.descripcion-pagina {
+    font-size: 1.5rem;
+}
+
+.boton-conoce-mas {
+    width: 12%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #377f8e;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.boton-conoce-mas:hover {
+    border: #377f8e 2px solid;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.titulo-portada,
+.descripcion-pagina,
+.boton-conoce-mas {
+    margin-left: 100px;
+}
+
+.contenedor-consideraciones {
+    display: flex;
+    background: #e0e0e0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.elige-consideraciones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 60px 40px 60px;
+}
+
+.elige-consideraciones h2 {
+    font-weight: 400;
+    color: #377f8e;
+}
+
+.elige-consideraciones h1 {
+    font-size: 3.5rem;
+    color: #434445;
+}
+
+.contenedor-consideraciones p {
+    line-height: 2;
+    font-size: 18px;
+    color: #434445;
+    text-align: justify;
+    padding: 30px 60px 40px 60px;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    height: 60vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 60px 40px 60px;
+}
+
+.sobre-nosotros h1 {
+    font-size: 3.5rem;
+    color: #434445;
+}
+
+.sobre-nosotros p {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #434445;
+    text-align: justify;
+}
+
+.imagen-mascotas {
+    width: 50%;
+    height: 50vh;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+/*.primer-wave{
+    position: relative;
+    top: -70px;
+}
+
+.segundo-wave{
+    position: relative;
+    top: -80px;
+}*/
+
+.contenedor-variedad-mascotas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e0e0e0;
+    height: 70vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.variedad-mascotas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+}
+
+.variedad-mascotas h2{
+    font-size: 2rem;
+    color: #377f8e;
+    text-transform: uppercase;
+}
+
+.contenedor-swipers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor-swipers section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mascotas-comunes-titulo {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: #434445;
+}
+
+.mascotas-exoticas-titulo {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: #434445;
+}
+
+.contenedor-presentacion-animales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.presentacion-animales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.titulo-presentacion-animales{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: #434445;
+}

@@ -1,0 +1,44 @@
+.contenedor-navbar{
+    z-index: 100;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-logo{
+    padding: 10px;
+}
+
+.logo-inicio{
+    width: 200px;
+}
+
+.rutas-navbar{
+    display: flex;
+    gap: 20px;
+}
+
+.rutas-navbar li a{
+    color: #377f8e;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.rutas-navbar li a:hover{
+    padding: 15px 10px;
+    background-color: #377f8e;
+    color: white;
+    border-radius: 10px;
+}
+
+.rutas-navbar li.activo a{
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: #377f8e;
+    color: white;
+}
