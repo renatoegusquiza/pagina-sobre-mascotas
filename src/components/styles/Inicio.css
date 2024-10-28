@@ -179,7 +179,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -188,10 +188,63 @@
     flex-direction: column;
     align-items: center;
     gap: 60px;
+    margin-top: 20px;
 }
 
 .titulo-presentacion-animales{
     font-size: 2.8rem;
     text-transform: uppercase;
     color: #434445;
+}
+
+.presentacion-animales video{
+    border-radius: 10px;
+}
+
+.contenedor-cuidados-principales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e0e0e0;
+    height: 50vh;
+}
+
+.cuidados-principales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.cuidados-principales h1{
+    text-transform: uppercase;
+    color: #377f8e;
+    font-size: 2.5rem;
+}
+
+.seccion-cuidados-principales{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.cuidado-principal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.cuidado-principal img{
+    border-radius: 10px 10px 0 0;
+}
+
+.cuidado-principal h3{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
 }
